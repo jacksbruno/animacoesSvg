@@ -1,0 +1,39 @@
+body{
+  overflow-x: hidden;
+  margin: 0;
+  background: #FFEAD4;
+}
+
+.container-header{
+  position: relative;
+  width: 100vw;
+}
+
+.container-header #lettering{
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+  margin-top: 10%;
+}
+
+h1, h2{
+  font-family: 'Pacifico', cursive;
+  color: #BE253F;
+}
+
+.container-cards{
+  width: 80%;
+  display: flex;
+  margin: auto;
+}
+
+.card{
+  background: #fff;
+  border-radius: 10px;
+  width: 50%;
+  padding: 20px;
+  margin: 20px;
+  box-sizing: border-box;
+}
